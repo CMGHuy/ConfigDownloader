@@ -1,0 +1,20 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cus="http://siebel.com/CustomUI" xmlns:base="http://www.siebel.com/xml/Base%20Keyword%20Automation">
+	<soapenv:Header>
+		<UsernameToken xmlns="http://siebel.com/webservices">CHEETAH20</UsernameToken>
+		<PasswordText xmlns="http://siebel.com/webservices">CHEETAH2020!4</PasswordText>
+		<SessionType xmlns="http://siebel.com/webservices">Stateless</SessionType>
+	</soapenv:Header>
+	<soapenv:Body>
+		<cus:AutomationExecConfigAttachmentQueryByExample_Input>
+			<cus:PageSize>2</cus:PageSize>
+			<base:ListOfBaseKeywordAutomation>
+				<base:AutomationExecConfig Operation="query">
+					<base:Id>*</base:Id>
+				</base:AutomationExecConfig>
+			</base:ListOfBaseKeywordAutomation>
+			<cus:LOVLanguageMode>LIC</cus:LOVLanguageMode>
+			<cus:ViewMode>All</cus:ViewMode>
+			<cus:StartRowNum>0</cus:StartRowNum>
+		</cus:AutomationExecConfigAttachmentQueryByExample_Input>
+	</soapenv:Body>
+</soapenv:Envelope>

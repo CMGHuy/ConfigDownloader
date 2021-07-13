@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="testReplyPost:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/testReplyPost_jar</output-path>
+    <root id="archive" name="test.reply.jar">
+      <element id="module-output" name="test.reply" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.7/httpcore-4.4.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.10/commons-codec-1.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.4/httpclient-4.5.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/guava/guava/14.0.1/guava-14.0.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
