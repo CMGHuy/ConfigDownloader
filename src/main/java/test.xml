@@ -1,7 +1,7 @@
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cus="http://siebel.com/CustomUI" xmlns:base="http://www.siebel.com/xml/Base%20Keyword%20Automation">
 	<soapenv:Header>
-		<UsernameToken xmlns="http://siebel.com/webservices">CHEETAH20</UsernameToken>
-		<PasswordText xmlns="http://siebel.com/webservices">CHEETAH2020!4</PasswordText>
+		<UsernameToken xmlns="http://siebel.com/webservices">TOKENUSERNAME</UsernameToken>
+		<PasswordText xmlns="http://siebel.com/webservices">TOKENPASSWORD</PasswordText>
 		<SessionType xmlns="http://siebel.com/webservices">Stateless</SessionType>
 	</soapenv:Header>
 	<soapenv:Body>
